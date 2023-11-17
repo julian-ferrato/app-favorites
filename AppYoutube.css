@@ -1,0 +1,106 @@
+/* Style général de la page */
+body {
+    font-family: Arial, sans-serif; /* Utilisation d'une police similaire à celle de YouTube */
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style de l'en-tête */
+h1 {
+    color: #c4302b; /* Couleur du logo YouTube */
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+/* Style du sommaire */
+h2 {
+    font-size: 24px;
+    color: #333; /* Couleur de texte standard */
+}
+
+/* Style des points */
+ul h3 {
+    display: block;
+    clear: both;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+li img {
+    max-width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+li p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Style des images des points */
+img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style du paragraphe */
+p {
+    font-family: 'Pacifico', cursive; /* Utilisation de la police Pacifico */
+    color: #333; /* Couleur du texte */
+    font-size: 18px; /* Taille de police */
+}
+
+/* Style du lien */
+a {
+    text-decoration: none;
+    color: #c4302b; /* Couleur similaire au rouge de YouTube pour les liens */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.coin-top-left {
+    top: 0;
+    left: 0;
+    max-width: 100%; /* Augmenter la largeur de 20% */
+    height: auto;
+}
+
+.coin-top-right {
+    max-width: 100%; /* Augmenter la largeur de 20% */
+    height: auto;
+    top: 0;
+    right: 0;
+}
+.coin {
+    position: absolute;
+    max-width: 20%; /* Vous pouvez ajuster la taille */
+    z-index: 1; /* Pour placer les images au-dessus du contenu */
+}
+img[src="images/Image Youtube 1.png"]
+{
+    max-width: 10%; /* Les images s'ajusteront automatiquement à la largeur de leur conteneur */
+    height: auto; /* L'attribut 'height' est automatiquement calculé pour conserver les proportions */
+}
+
+img[src="images/Image Youtube 2.png"] {
+    max-width: 10%; /* Les images s'ajusteront automatiquement à la largeur de leur conteneur */
+    height: auto; /* L'attribut 'height' est automatiquement calculé pour conserver les proportions */
+}
+
+img[src="images/Image Youtube 3.png"] {
+    max-width: 50%; /* Les images s'ajusteront automatiquement à la largeur de leur conteneur */
+    height: auto; /* L'attribut 'height' est automatiquement calculé pour conserver les proportions */
+}

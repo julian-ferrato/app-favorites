@@ -1,0 +1,119 @@
+/* Style général de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style du titre */
+h1 {
+    font-family: 'Manga Temple', cursive;
+    font-size: 36px;
+    color: #FF4500; /* Orange vif */
+    margin: 20px;
+}
+
+/* Style du sommaire */
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+p {
+    font-family: 'Manga Temple', cursive;
+}
+ul h3 {
+    display: block;
+    clear: both;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+li img {
+    max-width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+li p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Style des coins */
+.corner-image {
+    position: absolute;
+    max-width: 60px;
+    bottom: 0;
+    right: 0;
+}
+
+/* Ajoutez ici des styles spécifiques à votre contenu, comme les images de coins, etc. */
+/* Style du sommaire */
+.sommaire {
+    margin-top: 40px; /* Augmente la marge supérieure pour déplacer le sommaire vers le bas */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.sommaire h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Ajoutez ici des styles spécifiques au sommaire */
+/* Style des coins d'images */
+.coin {
+    position: absolute;
+    width: 100px; /* Ajustez la taille des coins selon vos besoins */
+    height: 100px;
+}
+
+.coin-top-left {
+    top: 0;
+    left: 0;
+    max-width: 120%; /* Augmenter la largeur de 20% */
+    height: auto;
+}
+
+.coin-top-right {
+    max-width: 120%; /* Augmenter la largeur de 20% */
+    height: auto;
+    top: 0;
+    right: 0;
+}
+
+/* Ajuster la taille des images */
+img[src="images/Image Webtoon Categories.jpg"]
+{
+    max-width: 50%; /* Les images s'ajusteront automatiquement à la largeur de leur conteneur */
+    height: auto; /* L'attribut 'height' est automatiquement calculé pour conserver les proportions */
+}
+
+img[src="images/Image Webtoon Coin.jpg"] {
+    max-width: 20%; /* Les images s'ajusteront automatiquement à la largeur de leur conteneur */
+    height: auto; /* L'attribut 'height' est automatiquement calculé pour conserver les proportions */
+}
+
+img[src="images/Image Webtoon créateur.jpg"] {
+    max-width: 30%; /* Les images s'ajusteront automatiquement à la largeur de leur conteneur */
+    height: auto; /* L'attribut 'height' est automatiquement calculé pour conserver les proportions */
+}
+/* Ajouter une ombre à toutes les images */
+img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
